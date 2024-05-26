@@ -103,5 +103,5 @@ a:visited {
   display: grid;
   align-content: center;
   place-items: center;
-  min-height: 100vh;
+  min-height: 50vh;
 }
