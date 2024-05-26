@@ -1,0 +1,107 @@
+body {
+  background-color: rgb(15, 23, 42);
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin-top: 20px;
+  padding: 15px 15px;
+  display: grid;
+}
+
+.green-bold {
+  color: #04aa6d;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.green-text {
+  color: #04aa6d;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.white-text {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.white-bold {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.blue-text {
+  color: #33dcfa;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: underline;
+  font-size: 19px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover,
+a:active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.topnav a:link,
+a:visited {
+  color: white;
+}
+
+.col h3 {
+  font-weight: bold;
+  color: #04aa6d;
+  padding: 10px 20px;
+  float: left;
+}
+
+.footer {
+  float: right;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: underline;
+  font-size: 19px;
+  color: white;
+}
+
+.footer a:link,
+a:visited {
+  color: white;
+}
+
+.section {
+  display: grid;
+  align-content: center;
+  place-items: center;
+  min-height: 100vh;
+}
