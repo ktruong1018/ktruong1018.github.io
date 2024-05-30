@@ -6,8 +6,8 @@ body {
 }
 
 .container {
-  margin-top: 20px;
-  padding: 15px 15px;
+  margin-top: 10px;
+  padding: 10px 10px;
   display: grid;
 }
 
@@ -85,6 +85,11 @@ a:visited {
   float: left;
 }
 
+.col-sm {
+  padding: 5px 5px;
+  max-width: 72px;
+}
+
 .footer {
   float: right;
   text-align: center;
@@ -105,3 +110,4 @@ a:visited {
   place-items: center;
   min-height: 50vh;
 }
+
