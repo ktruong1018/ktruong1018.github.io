@@ -11,6 +11,13 @@ body {
   display: grid;
 }
 
+.techstack {
+  background-color: rgb(29, 35, 49);
+  border-radius: 25px;
+  max-width: 512px;
+  padding: 10px 10px;
+}
+
 .green-bold {
   color: #04aa6d;
   font-weight: bold;
@@ -61,7 +68,7 @@ body {
 .topnav a {
   float: right;
   text-align: center;
-  padding: 10px 20px;
+  padding: 15px 15px;
   text-decoration: underline;
   font-size: 19px;
 }
@@ -69,13 +76,19 @@ body {
 /* Change the color of links on hover */
 .topnav a:hover,
 a:active {
-  background-color: #04aa6d;
-  color: white;
+  /* background-color: #04aa6d; */
+  background-color: rgb(40, 45, 56);
+  color: #04aa6d;
 }
 
 .topnav a:link,
 a:visited {
   color: white;
+}
+
+.col {
+  text-align: center;
+  margin-top: auto;
 }
 
 .col h3 {
