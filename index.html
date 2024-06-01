@@ -14,9 +14,9 @@
   <body>
     <div class="container" id="home">
       <div class="row">
-        <div class="col"><h3>Kevin Truong</h3></div>
+        <div onclick="nameClick()" class="col"><h3>Kevin Truong</h3></div>
         <div class="topnav col">
-          <a href="https://github.com/ktruong1018" target="_blank"><img title="Github" src="images\github.png" alt="Github" width="64" height="64"></a>
+          <a onclick="githubOpen()"><img title="Github" src="images\github.png" alt="Github" width="64" height="64"></a>
           <a href="https://www.linkedin.com/in/kevin-truong-857468149/" target="_blank"><img title="Linkedin" src="images\linkedin.png" alt="Linkedin" width="64" height="64"></a>
           <a style="margin-top: 15px;" class="nav-link" href="#experience">Experience</a>
         </div>
@@ -43,6 +43,11 @@
             <a class="blue-text" href="mailto:ktruong1018@gmail.com">email</a>
             .</span
           >
+          <button type="button" class="btn btn-success" onclick="testButton()">Test Button</button>
+          <div style="display: none;" id="buttonMsg">
+            <p>Button works!</p>
+          </div>
+
         </div>
         <div class="col-sm-6">
           <br/>
