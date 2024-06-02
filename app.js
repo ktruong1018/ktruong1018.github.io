@@ -17,3 +17,7 @@ function nameClick() {
 function githubOpen(){
     window.open("https://github.com/ktruong1018", "_blank");
 }
+
+function odinRecipes (){
+    window.open("https://ktruong1018.github.io/odin-recipes/index.html", "_blank");
+}
