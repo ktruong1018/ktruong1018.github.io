@@ -5,17 +5,11 @@ body {
   margin: 0;
 }
 
-.container {
-  margin-top: 10px;
-  padding: 10px 10px;
+section {
   display: grid;
-}
-
-.techstack {
-  background-color: rgb(29, 35, 49);
-  border-radius: 25px;
-  max-width: 512px;
-  padding: 10px 10px;
+  place-items: center;
+  align-content: center;
+  min-height: 65vh;
 }
 
 .green-bold {
@@ -104,12 +98,11 @@ a:visited {
 }
 
 .footer {
-  float: right;
-  text-align: center;
-  padding: 10px 20px;
   text-decoration: underline;
   font-size: 19px;
   color: white;
+  text-align: center;
+  padding: 15px 15px;
 }
 
 .footer a:link,
@@ -117,13 +110,52 @@ a:visited {
   color: white;
 }
 
-.section {
-  display: grid;
-  align-content: center;
-  place-items: center;
-  min-height: 50vh;
+.job {
+  color: #04aa6d;
+  text-decoration: none;
 }
 
-.job-company {
-  color: #04aa6d;
+/* Code for scroll transition */
+/* .hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+} */
+
+.logos {
+  display: flex;
+}
+
+.logo:nth-child(2) {
+  transition-delay: 100ms;
+}
+
+.logo:nth-child(3) {
+  transition-delay: 300ms;
+}
+
+.logo:nth-child(4) {
+  transition-delay: 500ms;
+}
+
+.logo:nth-child(5) {
+  transition-delay: 700ms;
+}
+
+.logo:nth-child(6) {
+  transition-delay: 900ms;
+}
+
+.logo {
+  background-color: rgb(29, 35, 49);
+  border-radius: 2px;
+  padding: 1rem;
+  margin: 0 0.5rem;
 }
