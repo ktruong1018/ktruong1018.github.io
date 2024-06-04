@@ -133,7 +133,7 @@ a:visited {
   display: flex;
 }
 
-.logo:nth-child(2) {
+/* .logo:nth-child(2) {
   transition-delay: 100ms;
 }
 
@@ -151,11 +151,11 @@ a:visited {
 
 .logo:nth-child(6) {
   transition-delay: 900ms;
-}
+} */
 
 .logo {
   background-color: rgb(29, 35, 49);
-  border-radius: 2px;
-  padding: 1rem;
-  margin: 0 0.5rem;
+  border-radius: 1px;
+  padding: 0.5rem;
+  margin: 1px 2px;
 }
