@@ -32,10 +32,14 @@ function githubOpen(){
     window.open("https://github.com/ktruong1018", "_blank");
 }
 
-function odinRecipes (){
+function odinRecipes(){
     window.open("https://ktruong1018.github.io/odin-recipes/index.html", "_blank");
 }
 
-function getResume (){
+function getResume(){
     window.open("https://drive.google.com/file/d/1jJV2MzZeQCO0UGW-kQPehYZYjXmCYJvO/view" ,"_blank");
+}
+
+function emailButton() {
+    window.open("mailto:ktruong1018@gmail.com");
 }
