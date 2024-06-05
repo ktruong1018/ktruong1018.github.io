@@ -43,3 +43,7 @@ function getResume(){
 function emailButton() {
     window.open("mailto:ktruong1018@gmail.com");
 }
+
+function goHome(){
+    window.location.href = 'index.html';
+}
