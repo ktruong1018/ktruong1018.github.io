@@ -35,3 +35,7 @@ function githubOpen(){
 function odinRecipes (){
     window.open("https://ktruong1018.github.io/odin-recipes/index.html", "_blank");
 }
+
+function getResume (){
+    window.open("https://drive.google.com/file/d/1jJV2MzZeQCO0UGW-kQPehYZYjXmCYJvO/view" ,"_blank");
+}
