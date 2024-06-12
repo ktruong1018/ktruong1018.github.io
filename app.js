@@ -37,7 +37,7 @@ function odinRecipes(){
 }
 
 function getResume(){
-    window.open("https://drive.google.com/file/d/1jJV2MzZeQCO0UGW-kQPehYZYjXmCYJvO/view" ,"_blank");
+    window.open("https://drive.google.com/file/d/1PcVajAcbsDkweLO9mdSL1SFXtdDWsQKu/view?usp=drive_link" ,"_blank");
 }
 
 function emailButton() {
